@@ -129,7 +129,7 @@ body {
    content: '';
 }
 
-.nav-items:hover .nav-link::after, .nav-items:hover .nav-link {
+.nav-items:hover .nav-link::after {
    opacity: 1;
 }
 
