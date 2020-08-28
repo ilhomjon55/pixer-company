@@ -79,6 +79,10 @@ body {
    align-items: center;
 }
 
+.logo-link{
+   transition: all 0.3s ease ;
+}
+
 .logo-link:hover {
    opacity: 0.8;
 }
@@ -104,6 +108,7 @@ body {
 .nav-items {
    position: relative;
    white-space: nowrap;
+   transition: all 0.3s ease ;
 }
 
 .nav-link {
@@ -115,6 +120,7 @@ body {
    color: #000000;
    text-transform: capitalize;
    text-decoration: none;
+   transition: all 0.3s ease ;
 }
 
 .nav-link::after {
@@ -131,6 +137,9 @@ body {
 
 .nav-items:hover .nav-link::after {
    opacity: 1;
+}
+.nav-items:active .nav-link::after {
+   opacity: 0;
 }
 
 .nav-link:active {
@@ -164,6 +173,7 @@ body {
    line-height: 24px;
    color: #000000;
    text-decoration: none;
+   transition: all 0.3s ease ;
 }
 
 .sub-menu-link:hover {
@@ -187,6 +197,7 @@ body {
    line-height: 24px;
    color: #FFFFFF;
    text-decoration: none;
+   transition: all 0.3s ease ;
 }
 
 .tel-link:hover {
