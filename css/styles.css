@@ -129,7 +129,7 @@ body {
    content: '';
 }
 
-.nav-link:hover::after {
+.nav-items:hover .nav-link::after, .nav-items:hover .nav-link {
    opacity: 1;
 }
 
@@ -141,7 +141,8 @@ body {
 .sub-menu {
    position: absolute;
    top: 100%;
-   transform: translatex(-11%);
+   left: 50%;
+   transform: translatex(-50%);
    display: none;
    padding: 8px 0;
    margin: 0;
