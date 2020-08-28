@@ -68,7 +68,7 @@ body {
 .header-wrapper {
    position: fixed;
    top: 0;
-   z-index: 10;
+   z-index: 2;
    width: 100vw;
    background-color: #fff;
    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
