@@ -79,8 +79,8 @@ body {
    align-items: center;
 }
 
-.logo-link{
-   transition: all 0.3s ease ;
+.logo-link {
+   transition: all 0.3s ease;
 }
 
 .logo-link:hover {
@@ -108,7 +108,7 @@ body {
 .nav-items {
    position: relative;
    white-space: nowrap;
-   transition: all 0.3s ease ;
+   transition: all 0.3s ease;
 }
 
 .nav-link {
@@ -120,7 +120,7 @@ body {
    color: #000000;
    text-transform: capitalize;
    text-decoration: none;
-   transition: all 0.3s ease ;
+   transition: all 0.3s ease;
 }
 
 .nav-link::after {
@@ -138,6 +138,7 @@ body {
 .nav-items:hover .nav-link::after {
    opacity: 1;
 }
+
 .nav-items:active .nav-link::after {
    opacity: 0;
 }
@@ -173,7 +174,7 @@ body {
    line-height: 24px;
    color: #000000;
    text-decoration: none;
-   transition: all 0.3s ease ;
+   transition: all 0.3s ease;
 }
 
 .sub-menu-link:hover {
@@ -197,7 +198,7 @@ body {
    line-height: 24px;
    color: #FFFFFF;
    text-decoration: none;
-   transition: all 0.3s ease ;
+   transition: all 0.3s ease;
 }
 
 .tel-link:hover {
@@ -210,4 +211,60 @@ body {
    background: rgba(0, 186, 252, 0.6);
    color: #fff;
    box-shadow: none;
+}
+
+.section-intro {
+   margin-top: 56px;
+   padding-top: 80px;
+   margin-bottom: 56px;
+}
+
+.section-intro-container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.section-intro-txt {
+   width: 465px;
+}
+
+.section-intro-header {
+   margin: 0;
+   margin-bottom: 18px;
+   font-weight: bold;
+   font-size: 30px;
+   line-height: 130%;
+}
+
+.section-intro-pharagraph {
+   margin: 0;
+   margin-bottom: 16px;
+   font-size: 16px;
+   line-height: 24px;
+}
+
+.section-intro-link {
+   display: inline-block;
+   padding: 8px 16px;
+   background: #00BAFC;
+   border-radius: 5px;
+   font-weight: bold;
+   font-size: 16px;
+   text-decoration: none;
+   line-height: 24px;
+   color: #FFFFFF;
+}
+
+.section-intro-link:hover {
+   background: rgba(0, 186, 252, 0.8);
+}
+
+.section-intro-link:active {
+   background: rgba(0, 186, 252, 0.6);
+}
+
+.section-intro-video {
+   border: none;
+   border-radius: 5px;
 }
