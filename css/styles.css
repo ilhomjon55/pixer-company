@@ -51,6 +51,10 @@ html {
    overflow: hidden;
 }
 
+.blue-link {
+   white-space: nowrap;
+}
+
 body {
    font-family: 'Product sans', 'Arial', sans-serif;
    font-size: 16px;
