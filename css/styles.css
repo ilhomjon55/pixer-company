@@ -90,7 +90,7 @@ body {
    background: rgba(0, 186, 252, 0.6);
 }
 
-/* ============= HEADER=============  */
+/*  ===== SITE-HEADER =====  */
 
 .header-wrapper {
    position: fixed;
@@ -250,9 +250,9 @@ body {
    box-shadow: none;
 }
 
-/* ================ MAIN ================ */
+/* ===== SITE-MAIN ===== */
 
-/* ============SECTION-INTRO============ */
+/* ===== SECTION-INTRO ===== */
 
 .section-intro {
    padding-top: 80px;
@@ -290,7 +290,7 @@ body {
    border-radius: 5px;
 }
 
-/* ========= SECTION-SERVICES =========  */
+/* ===== SECTION-SERVICES =====  */
 
 .section-services {
    background-color: #fff;
