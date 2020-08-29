@@ -124,7 +124,6 @@ body {
    color: #000000;
    text-transform: capitalize;
    text-decoration: none;
-   transition: all 0.3s ease;
 }
 
 .nav-link::after {
@@ -137,6 +136,7 @@ body {
    background: #191919;
    opacity: 0;
    content: '';
+   transition: all 0.3s ease;
 }
 
 .nav-items:hover .nav-link::after {
