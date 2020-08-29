@@ -206,7 +206,7 @@ body {
 }
 
 .sub-menu-link:active {
-   background: #00BAFC;
+   background: rgba(0, 186, 252, 0.6);
    color: #fff;
    opacity: 0.6;
 }
