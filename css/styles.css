@@ -297,7 +297,8 @@ body {
 }
 
 .section-services-container {
-   padding: 56px 0;
+   padding-top: 56px;
+   padding-bottom: 56px;
    text-align: center;
 }
 
@@ -322,8 +323,8 @@ body {
    justify-content: center;
    flex-wrap: wrap;
    margin: 0;
-   margin-right: -34px;
-   margin-left: -34px;
+   margin-right: -35px;
+   margin-left: -35px;
    padding: 0;
    list-style-type: none;
 }
@@ -429,7 +430,8 @@ body {
 }
 
 .section-workstyle-container {
-   padding: 56px 0;
+   padding-top: 56px;
+   padding-bottom: 56px;
    text-align: center;
 }
 
@@ -533,4 +535,95 @@ body {
    font-weight: normal;
    font-size: 16px;
    line-height: 24px;
+}
+
+/* SECTION-ORDER */
+
+.section-order {
+   background: #00BAFC;
+}
+
+.section-order-container {
+   padding-top: 56px;
+   padding-bottom: 64px;
+   text-align: center;
+   color: #FFFFFF;
+}
+
+.section-order-heading {
+   margin-top: 0;
+   margin-bottom: 16px;
+   font-weight: bold;
+   font-size: 24px;
+   line-height: 130%;
+}
+
+.section-order-paragraph {
+   width: 719px;
+   margin-top: 0;
+   margin-bottom: 24px;
+   margin-right: auto;
+   margin-left: auto;
+   font-size: 16px;
+   line-height: 150%;
+}
+
+.order-form-wrapper {
+   width: 348px;
+   margin-right: auto;
+   margin-left: auto;
+   padding: 24px;
+   background-color: #fff;
+   border-radius: 5px;
+}
+
+.label-input {
+   display: block;
+   margin-bottom: 16px;
+}
+
+.label-input input {
+   width: 100%;
+   padding: 16px;
+   background-color: #F3F3F3;
+   border: none;
+   border-radius: 5px;
+}
+
+.label-input input::placeholder {
+   font-size: 16px;
+   line-height: 150%;
+   color: #222;
+}
+
+.label-service-type {
+   position: relative;
+   display: block;
+   margin-bottom: 16px;
+}
+
+.select-icon-span {
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 52px;
+   height: 52px;
+   background-image: url(../img/select-icon.svg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   content: "";
+}
+
+.label-service-type select {
+   width: 100%;
+   padding: 16px;
+   background-color: #F3F3F3;
+   border: none;
+   border-radius: 5px;
+}
+
+.submit-button {
+   border: none;
+   outline-style: none;
 }

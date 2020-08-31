@@ -10,7 +10,6 @@
 </head>
 
 <body>
-
    <!--  ===== SITE-HEADER =====  -->
    <header class="header-wrapper">
       <div class="container">
@@ -63,10 +62,8 @@
          </div><!-- header -->
       </div><!-- conrainer -->
    </header>
-
    <!--  ===== SITE-MAIN =====  -->
    <main class="main-wrapper">
-
       <!--  ====== SECTION-INTRO ======  -->
       <section class="section-intro">
          <h1 class="visually-hidden">Biznesingiz uchun IT yechimlar!</h1>
@@ -85,7 +82,6 @@
                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
          </div><!-- section-intro-container -->
       </section>
-
       <!-- ===== SECTION-SERVICES =====  -->
       <section class="section-services" id="services_section">
          <div class="container section-services-container">
@@ -131,7 +127,6 @@
             </div><!-- section-services-bottom-links -->
          </div><!-- section-services-container -->
       </section>
-
       <!-- ===== SECTION-WORKSTYLE =====  -->
       <section class="section-workstyle">
          <div class="container section-workstyle-container">
@@ -180,9 +175,36 @@
             <a href="#order_section" class="blue-link">Buyurtma berish</a>
          </div><!-- section-workstyle-container -->
       </section>
-
+      <!--  ===== SECTION-ORDER ===== -->
+      <section class="section-order" id="order_section">
+         <div class="container section-order-container">
+            <h2 class="section-order-heading">Buyurtma berish</h2>
+            <p class="section-order-paragraph">
+               Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget
+               sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar
+            </p>
+            <form class="order-form-wrapper" action="https://echo.htmlacademy.ru/" method="POST">
+               <label class="label-input label-input-name">
+                  <input type="text" name="user_name" placeholder="Ismingiz" required>
+               </label>
+               <label class="label-input label-input-tel">
+                  <input type="tel" name="user_tel_num" placeholder="Telefon raqamingiz" required>
+               </label>
+               <label class="label-service-type" for="select_typejon">
+                  <select name="service_type" id="select_typejon" required>
+                     <option value="" disabled selected>Xizmat turi</option>
+                     <option value="vebsayt_tuzish">Vebsayt tuzish</option>
+                     <option value="telegram-bot">Telegram bot</option>
+                     <option value="smm">SMM</option>
+                     <option value="graphic_design">Grafik dizayn</option>
+                     <option value="crm_system">CRM tizimlar</option>
+                  </select>
+               </label>
+               <button class="blue-link submit-button" type="submit">Buyurtma berish</button>
+            </form>
+         </div><!-- section-order-container -->
+      </section>
    </main>
-
 </body>
 
 </html>
