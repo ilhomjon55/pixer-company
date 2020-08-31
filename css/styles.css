@@ -441,13 +441,12 @@ body {
    line-height: 130%;
 }
 
-.workstyle-section-paragraph {
+.section-workstyle-paragraph {
    width: 719px;
    margin: 0 auto;
    margin-bottom: 24px;
    font-size: 16px;
    line-height: 24px;
-   text-align: center
 }
 
 .workstyle-list {
@@ -534,5 +533,4 @@ body {
    font-weight: normal;
    font-size: 16px;
    line-height: 24px;
-   а
 }
