@@ -421,3 +421,118 @@ body {
 .section-services-link:hover {
    border-bottom: none;
 }
+
+/* SECTION-WORKSTYLE */
+
+.section-workstyle {
+   background-color: #fff;
+}
+
+.section-workstyle-container {
+   padding: 56px 0;
+   text-align: center;
+}
+
+.section-workstyle-heading {
+   margin: 0;
+   margin-bottom: 16px;
+   font-weight: bold;
+   font-size: 24px;
+   line-height: 130%;
+}
+
+.workstyle-section-paragraph {
+   width: 719px;
+   margin: 0 auto;
+   margin-bottom: 24px;
+   font-size: 16px;
+   line-height: 24px;
+   text-align: center
+}
+
+.workstyle-list {
+   display: flex;
+   flex-direction: column;
+   width: 832px;
+   margin: 0 auto;
+   margin-bottom: 40px;
+   padding: 8px 0;
+   background-color: #fff;
+   list-style-type: none;
+}
+
+.workstyle {
+   display: flex;
+   align-items: center;
+   margin-bottom: 48px;
+}
+
+.workstyle:last-child {
+   margin-bottom: 0;
+}
+
+.workstyle:nth-child(odd):before {
+   display: inline-block;
+   width: 300px;
+   margin-right: 32px;
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   content: '';
+}
+
+.workstyle:nth-child(even)::after {
+   display: inline-block;
+   width: 300px;
+   margin-left: 32px;
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   content: '';
+}
+
+.workstyle-1::before {
+   height: 277px;
+   background-image: url("../img/pic1.svg");
+}
+
+.workstyle-2::after {
+   height: 225px;
+   background-image: url("../img/pic2.svg");
+}
+
+.workstyle-3::before {
+   height: 259px;
+   background-image: url("../img/pic3.svg");
+}
+
+.workstyle-4::after {
+   height: 171px;
+   background-image: url("../img/pic4.svg");
+}
+
+.workstyle-5::before {
+   height: 232px;
+   background-image: url("../img/pic5.svg");
+}
+
+.workstyle-description {
+   width: 500px;
+   text-align: left;
+}
+
+.workstyle-heading {
+   margin: 0;
+   margin-bottom: 8px;
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 130%;
+}
+
+.workstyle-paragraph {
+   margin: 0;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 24px;
+   а
+}
